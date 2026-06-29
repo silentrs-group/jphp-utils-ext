@@ -28,3 +28,7 @@ config:
     - /.idea/**
     - /bundle/**
     - /src-bundle/**
+develnext-bundle-config:
+  extraJar:
+    - name: "main.jar"
+      files: [ "src" ]

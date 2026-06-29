@@ -8,6 +8,7 @@ use php\util\{Flow, SharedMap};
 
 /**
  * __construct ($lang = null)
+ *
  * Class SystemData
  * @package utils\helpers
  * @packages helpers
@@ -81,7 +82,7 @@ class SystemData
     /**
      * @return void
      */
-    public function initUserData(): void
+    private function initUserData(): void
     {
         self::$userData = new SharedMap([]);
 

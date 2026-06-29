@@ -11,3 +11,4 @@ utils\helpers\gui\SVG
 utils\helpers\gui\Theme
 utils\helpers\gui\GeometryWrap
 utils\helpers\Mutex
+utils\helpers\SystemData
